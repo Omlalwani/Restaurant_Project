@@ -34,11 +34,11 @@
 
 <body>
 <div class="container-fluid position-relative d-flex p-0">
-	<%@ include file="restaurantservices/sidebar.jsp" %>
+	<%@ include file="tableservices/sidebar.jsp" %>
 	<div class="content">
-	<%@ include file="restaurantservices/header.jsp" %>
+	<%@ include file="tableservices/header.jsp" %>
 	<div class="container-fluid pt-4 px-4">
-	<%@ include file="restaurantservices/form.jsp" %>
+	<%@ include file="tableservices/tableform.jsp" %>
 	</div>
 	<%@ include file="dashboards/footer.jsp" %>
 	</div>
